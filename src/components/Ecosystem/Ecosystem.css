@@ -1,0 +1,212 @@
+.ecosystem-container{
+    background-image: linear-gradient(90deg, #f5f7fa 0%, #c3e2e28b 100%);    
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+    text-align: left;
+}
+.section-heading{
+    padding: 1% 3% 1%;
+    background: radial-gradient(circle at center left, #92aaff 1%, #92aaff00 5%);
+    color: #00386b;
+}
+.section-heading h5{
+    font-weight: 700;
+    text-align: justify;
+}
+.eco-text{
+    padding-top: 3%;
+    letter-spacing: 1px;
+    font-size: 2.4rem;
+}
+.eco-system-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 4%;
+}
+.line-beween{
+    position: absolute;
+    width: 22.5%;
+    border: 2px dashed #dbddde;
+    left: 22%;
+    top: 25%;
+}
+.line-between-gateway{
+    position: absolute;
+    width: 27.5%;
+    border: 2px dashed #dbddde;
+    left: 58.5%;
+    top: 25%;
+}
+.line-beween:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+.line-between-gateway:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+.gateway-border-container:hover{
+    box-shadow: 0px 0px 5px 10px white;
+}
+
+.streetlight-main-conatiner{
+    margin-top: 3%;
+    text-align: center;
+    display: flex;
+    gap: 10%;
+}
+.streetlight-main-conatiner .streetlight-border-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #95adff;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 15%;
+}
+.streetlight-main-conatiner .streetlight-border-conatiner .street-light-img-conatainer{
+    border: 2px solid #95adff;
+    padding: 15%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.street-light-text-container{
+    margin-top: 10%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.street-light-text-container .street-light-head{
+    font-weight: 700;
+}
+.street-light-text-container .street-light-desc{
+    color: #8c8e8f;
+}
+.gateway-border-container{
+    border: 3px dashed #dbddde;
+    padding: 10%;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+.gateway-border-container .gateway-logo-container{
+    padding: 10%;
+    border: 2px solid #dbddde;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line-after-cloud{
+    position: absolute;
+    height:20%;
+    border: 2px dashed #dbddde;
+    left: 52%;
+    top: 93.5%;
+}
+.line-after-cloud:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+.line-of-below-container{
+    position: absolute;
+    width:35.5%;
+    height: 27%;
+    border-top: 3px dashed #dbddde;
+    border-left: 3px dashed #dbddde;
+    border-right: 3px dashed #dbddde;
+    left: 32%;
+    top: 113%;
+}
+.line-of-below-container:hover {
+    box-shadow: 
+        -5px 0px 5px white, 
+        5px 0px 5px white,   
+        0px -5px 5px white;  
+}
+.below-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.below-container .sub-below-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* responsive */
+
+@media (max-width: 1024px){
+    .ecosystem-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .gateway-container{
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .line-beween{
+        width: 14%;
+        top: 15%;
+        left: 29%;
+    }
+    .line-between-gateway{
+        width: 19%;
+        left: 61.5%;
+        top: 15%;
+    }
+    .line-after-cloud{
+        top: 73%;
+    }
+    .line-of-below-container{
+        top: 93.5%;
+        height: 29%;
+    }
+}
+
+@media (max-width: 912px){
+    .line-beween{
+        width: 10%;
+        top: 15%;
+        left: 32%;
+    }
+    .line-between-gateway{
+        width: 16.5%;
+        left: 62.5%;
+        top: 15%;
+    }
+}
+@media (max-width:667px){
+    .eco-system-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .line-of-below-container{
+        display: none;
+    }
+    .line-after-cloud{
+        display: none;
+    }
+    .below-container{
+        margin-top: 1%;
+    }
+    .below-container .sub-below-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-heading{
+        background: radial-gradient(circle at center left, #92aaff 1%, #92aaff00 10%);
+    }
+}

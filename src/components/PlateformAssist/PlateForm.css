@@ -1,0 +1,170 @@
+.section-4{
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 15%;
+}
+.plateform-text{
+    line-height: 7.5vh;
+    letter-spacing: 1px;
+}
+.plateform-power{
+    border-bottom: 2px solid #ced4d4;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.plateform-power .first-platform-container{
+    text-align: left;
+    padding-bottom: 2%;
+}
+.plateform-power .first-platform-container img{
+    margin-bottom: 3%;
+}
+.first-platform-container-second{
+    text-align: left;
+    margin-top: 2%;
+}
+.first-platform-container-second img{
+    margin-bottom: 15%;
+}
+.horizontal-light{
+    position: absolute;
+    height: 70%;
+    border: 1.5px solid #ced4d4;
+    left: 50%;
+    bottom: 0;
+}
+.platform-detect-power{
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid #ced4d4;
+    display: flex;
+    justify-content: space-between;
+}
+.platform-detect-power .plateform-detect-first-cont{
+    width: 20%;
+    border-right: 2px solid #ced4d4;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    text-align: left;
+    line-height: 6vh;
+    letter-spacing: 1px;
+}
+.platform-detect-power .plateform-detect-first-cont img{
+    margin-bottom: 10%;
+}
+.plateform-detect-second-cont{
+    padding-top: 5%;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    line-height: 6vh;
+    letter-spacing: 1px;
+}
+.plateform-detect-second-cont img{
+    padding-bottom: 10%;
+}
+
+.plateform-analytics-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.plateform-analytics-container .first-container, .plateform-analytics-container .second-container{
+    box-sizing: border-box;
+}
+.plateform-analytics-container .first-container{
+    width: 65%;
+    text-align: left;
+    border-bottom:2px solid #ced4d4 ;
+    border-right:2px solid #ced4d4 ;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.plateform-analytics-container .first-container h2{
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: 5%;
+}
+.second-container{
+    position: absolute;
+    text-align: left;
+    width: 33%;
+    left: 68%;
+    top: 55%;
+}
+.plateform-analytics-container .second-container h2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.verticale-line{
+    position: absolute;
+    border-top: 2px solid #ced4d4;
+    border-right:2px solid #ced4d4 ;
+    width: 30%;
+    height: 20%;
+    rotate: 180deg;
+    top: 100%;
+    left: 64.8%;
+}
+.new-vertical-line{
+    position: absolute;
+    height: 20%;
+    border: 1px solid #ced4d4;
+    top: 120%;
+    left: 64.8%;
+}
+
+/* responsive */
+@media (max-width: 1024px){
+    .section-4{
+        padding-bottom: 25%;
+    }
+    .plateform-text{
+        line-height: 5vh;
+    }
+}
+@media (max-width: 667px){
+    .section-4{
+        padding-bottom: 50%;
+    }
+    .plateform-text{
+        line-height: 6vh;
+    }
+    .plateform-power{
+        width: 100%;
+    }
+    .plateform-power .first-platform-container h2{
+        font-size: 1.3rem;
+    }
+    .platform-detect-power{
+        width: 100%;
+    }
+    .platform-detect-power .plateform-detect-first-cont{
+        width: 45%;
+    }
+    .plateform-detect-second-cont{
+        padding-left: 3%;
+    }
+    .second-container{
+        top: 50%;
+        width: 40%;
+    }
+    .first-container h2{
+        font-size: 1.3rem;
+    }
+    .second-container h2{
+        font-size: 1.3rem;
+    }
+    .plateform-analytics-container{
+        width: 100%;
+    }
+}
